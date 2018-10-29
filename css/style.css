@@ -1,0 +1,131 @@
+html{
+  background-image: url(../img/fondo.jpg);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.brand-logo{
+	height: 60px; /*auto*//*Para que sea responsiva*/;
+  width: 60px; /*100%*/
+
+}
+
+img{
+  width: 100%
+  height: auto;
+
+}
+
+#poss{
+  left:60px;
+  top: 50px;
+  width: 450px;
+  height:450px;
+}
+
+#poss2{
+  left:60px;
+  top: 40px;
+  width: 400px;
+  height:400px;
+}
+
+.titulo{
+  padding: 15px;
+  font: oblique bold 220% cursive;
+  top: 200px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: purple;
+  justify-content: center;
+  text-align: center;
+  background-color: #E879EC;
+  width: 350px;
+  height: 90px;
+}
+
+.colu{
+  padding: 15px;
+  font: oblique bold 100% cursive;
+  top: 400px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: purple;
+  justify-content: center;
+  text-align: center;
+  background-color: #E879EC;
+  width: 350px;
+  height: 90px;
+}
+
+
+#modificador{
+  font: oblique bold 130% cursive;
+  /*font-size: 130%;*/
+  left: 750px;
+  border-style: dashed;
+  width: 450px;
+  height: 350px;
+  justify-content: center;
+  text-align: center;
+  background-color: #3BF4F0;
+}
+
+#nombre{
+    font: oblique bold 160% cursive;
+}
+
+#gridIdiomas{
+  top:200px;
+}
+
+#cursos{
+  justify-content: center;
+  text-align: center;
+}
+
+#cur1{
+  border-style: inset;
+  border-width: 8px;
+}
+
+#cur2{
+  border-style: inset;
+  border-width: 6px;
+}
+
+.h6{
+  font: bold 100% monospace;
+}
+
+.parr{
+  font: small-caps 100%/200% serif;
+}
+
+.github-button{
+  left: 200px;
+}
+
+#cur3{
+  border-style: inset;
+  border-width: 6px;
+  font: bold 130% monospace;
+  justify-content: center;
+  text-align: center;
+}
+
+#cur4{
+  border-style: inset;
+  border-width: 6px;
+  font: bold 130% monospace;
+  justify-content: center;
+  text-align: center;
+}
